@@ -1,0 +1,110 @@
+html{
+
+    width: 100%;
+    height: 100%;
+}
+
+body, main{
+ 
+    width: 100%;
+    height: 100%; 
+    
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url("kofi.jpeg");
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -2;
+    filter: grayscale(0.1) opacity(0.2);
+}
+
+#main{
+
+    font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+}
+
+#title{
+
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: rgba(216, 226, 220, 0.5);
+}
+
+#title h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#title h2{
+
+    font-style: italic;
+    padding-top: 10px;
+    color: #6b4f57;
+    font-weight: bold;
+}
+
+
+
+#image{
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+#img-caption{
+
+    text-align: center;
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+#tribute-info{
+    margin-top: 50px;
+    width: 100%;
+}
+
+#tribute-info h3{
+    text-align: center;
+    background-color: khaki;
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+
+.list-items{
+    list-style-type: disc;
+    list-style-position: outside;
+    display: table;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 70%;
+}
+
+.list-item strong{
+    font-weight: bold;
+}
+
+.list-item{
+    text-align: start;
+    margin-bottom: 1rem;
+    color: rgb(16, 6, 51);
+    text-align: justify;
+    width: 90%;
+    
+}
+
+#tribute-info p{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 2rem;
+    color: gray;
+}
